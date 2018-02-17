@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2018-02-16 23:30:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2018-02-15 13:37:15 -0500"
@@ -155,6 +161,12 @@
       "diamond_helmet": "2018-02-15 15:57:04 -0500",
       "diamond_chestplate": "2018-02-15 15:57:04 -0500",
       "diamond_boots": "2018-02-15 15:57:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2018-02-16 23:30:02 -0500"
     },
     "done": true
   },
@@ -270,7 +282,8 @@
     "criteria": {
       "cooked_porkchop": "2018-02-15 12:55:06 -0500",
       "cooked_mutton": "2018-02-15 15:45:45 -0500",
-      "baked_potato": "2018-02-15 21:52:37 -0500"
+      "baked_potato": "2018-02-15 21:52:37 -0500",
+      "cooked_cod": "2018-02-16 23:39:03 -0500"
     },
     "done": false
   },
@@ -467,6 +480,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2018-02-16 23:30:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2018-02-15 13:48:41 -0500"
@@ -635,6 +654,7 @@
       "zombie_villager": "2018-02-15 14:30:47 -0500",
       "skeleton": "2018-02-15 14:04:59 -0500",
       "zombie": "2018-02-15 13:12:13 -0500",
+      "witch": "2018-02-17 00:15:37 -0500",
       "spider": "2018-02-15 14:27:11 -0500",
       "creeper": "2018-02-15 22:14:54 -0500",
       "enderman": "2018-02-15 22:30:13 -0500"
@@ -740,6 +760,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2018-02-15 15:17:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2018-02-17 00:36:20 -0500"
     },
     "done": true
   },
@@ -860,6 +886,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2018-02-15 22:06:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2018-02-17 00:23:41 -0500"
     },
     "done": true
   },
@@ -1094,6 +1126,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2018-02-15 13:10:26 -0500",
+      "swampland": "2018-02-17 00:15:00 -0500",
       "extreme_hills_with_trees": "2018-02-15 22:02:10 -0500",
       "forest_hills": "2018-02-15 22:03:38 -0500",
       "plains": "2018-02-15 12:50:32 -0500",
@@ -1236,6 +1269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2018-02-16 23:30:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2018-02-15 13:51:42 -0500"
@@ -1251,6 +1290,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2018-02-15 12:55:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2018-02-16 23:30:02 -0500"
     },
     "done": true
   },

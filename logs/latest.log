@@ -1,66 +1,52 @@
-[22:37:41] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[22:37:41] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_161]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_161]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_161]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_161]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
-	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
-[22:37:41] [Server thread/INFO]: Loading properties
-[22:37:41] [Server thread/INFO]: Default game type: SURVIVAL
-[22:37:41] [Server thread/INFO]: Generating keypair
-[22:37:41] [Server thread/INFO]: Starting Minecraft server on 192.168.1.3:25565
-[22:37:41] [Server thread/INFO]: Using default channel type
-[22:37:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:37:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:37:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:37:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:37:42] [Server thread/INFO]: Preparing level "new remastered world"
-[22:37:43] [Server thread/INFO]: Loaded 488 advancements
-[22:37:43] [Server thread/INFO]: Preparing start region for level 0
-[22:37:44] [Server thread/INFO]: Preparing spawn area: 0%
-[22:37:45] [Server thread/INFO]: Preparing spawn area: 33%
-[22:37:46] [Server thread/INFO]: Preparing spawn area: 59%
-[22:37:47] [Server thread/INFO]: Done (5.622s)! For help, type "help" or "?"
-[22:37:49] [Server thread/INFO]: pepetester[/192.168.1.3:50682] logged in with entity id 1373 at (302.29049172381974, 67.0, 223.43339747863715)
-[22:37:49] [Server thread/INFO]: pepetester joined the game
-[22:38:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 24609ms behind, skipping 492 tick(s)
-[22:38:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 18949ms behind, skipping 378 tick(s)
-[22:38:36] [Server thread/INFO]: kakamaru[/186.114.59.125:53861] logged in with entity id 1960 at (300.53723296586435, 67.0, 223.2039847657439)
-[22:38:36] [Server thread/INFO]: kakamaru joined the game
-[22:38:37] [Server thread/INFO]: Could not clear the inventory of pepetester, no items to remove
-[22:38:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20697ms behind, skipping 413 tick(s)
-[22:39:10] [Server thread/INFO]: Opped kakamaru
-[22:39:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 17392ms behind, skipping 347 tick(s)
-[22:39:19] [Server thread/INFO]: Opped pepetester
-[22:39:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 19419ms behind, skipping 388 tick(s)
-[22:39:53] [Server thread/INFO]: kakamaru blew up
-[22:39:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 28983ms behind, skipping 579 tick(s)
-[22:39:59] [Server thread/WARN]: kakamaru moved too quickly! -7.1605335025600425,5.699902286396878,5.036205316312476
-[22:40:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 59460ms behind, skipping 1189 tick(s)
-[22:41:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2028ms behind, skipping 40 tick(s)
-[22:42:53] [Server thread/INFO]: kakamaru was slain by Zombie
-[22:43:22] [Server thread/INFO]: pepetester has made the advancement [Monster Hunter]
-[22:46:40] [Server thread/INFO]: pepetester lost connection: Disconnected
-[22:46:40] [Server thread/INFO]: pepetester left the game
-[22:50:17] [Server thread/INFO]: SexySoyPapi09[/192.168.1.3:50781] logged in with entity id 10258 at (209.41937433239713, 57.0, 130.90724570871956)
-[22:50:17] [Server thread/INFO]: SexySoyPapi09 joined the game
-[22:50:48] [Server thread/INFO]: kakamaru lost connection: Disconnected
-[22:50:48] [Server thread/INFO]: kakamaru left the game
-[22:50:53] [Server thread/INFO]: kakamaru[/186.114.59.125:53870] logged in with entity id 10872 at (211.0970359771597, 56.5, 128.96243435203002)
-[22:50:53] [Server thread/INFO]: kakamaru joined the game
-[22:54:09] [Server thread/INFO]: SexySoyPapi09 lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
-[22:54:09] [Server thread/INFO]: SexySoyPapi09 left the game
-[22:55:54] [Server thread/INFO]: cazap4tas[/181.62.49.148:11642] logged in with entity id 16137 at (167.41823444845014, 63.0, 143.0956186478112)
-[22:55:54] [Server thread/INFO]: cazap4tas joined the game
-[22:57:12] [Server thread/INFO]: SexySoyPapi09[/192.168.1.3:50831] logged in with entity id 17696 at (190.12728893134056, 63.0, 141.81027088431875)
-[22:57:12] [Server thread/INFO]: SexySoyPapi09 joined the game
-[22:59:04] [Server thread/INFO]: SexySoyPapi09 lost connection: Disconnected
-[22:59:04] [Server thread/INFO]: SexySoyPapi09 left the game
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:24] [Server thread/WARN]: Boat moved wrongly!
+[00:00:27] [Server thread/WARN]: Boat moved wrongly!
+[00:00:27] [Server thread/WARN]: Boat moved wrongly!
+[00:00:27] [Server thread/WARN]: Boat moved wrongly!
+[00:00:27] [Server thread/WARN]: Boat moved wrongly!
+[00:00:28] [Server thread/WARN]: Boat moved wrongly!
+[00:00:28] [Server thread/WARN]: Boat moved wrongly!
+[00:00:28] [Server thread/WARN]: Boat moved wrongly!
+[00:00:28] [Server thread/WARN]: Boat moved wrongly!
+[00:00:48] [Server thread/WARN]: Boat moved wrongly!
+[00:00:48] [Server thread/WARN]: Boat moved wrongly!
+[00:00:48] [Server thread/WARN]: Boat moved wrongly!
+[00:00:51] [Server thread/WARN]: cazap4tas moved wrongly!
+[00:04:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4189ms behind, skipping 83 tick(s)
+[00:05:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2326ms behind, skipping 46 tick(s)
+[00:29:45] [Server thread/INFO]: RyU[/181.55.112.198:50257] logged in with entity id 112078 at (164.33428588853582, 63.41999998688698, 150.50001380516755)
+[00:29:45] [Server thread/INFO]: RyU joined the game
+[00:30:05] [Server thread/INFO]: cazap4tas has made the advancement [Best Friends Forever]
+[00:31:50] [Server thread/INFO]: <cazap4tas> tp ryu
+[00:36:20] [Server thread/INFO]: kakamaru has made the advancement [Best Friends Forever]
+[00:37:56] [Server thread/INFO]: kakamaru lost connection: Disconnected
+[00:37:56] [Server thread/INFO]: kakamaru left the game
+[00:38:32] [Server thread/INFO]: cazap4tas lost connection: Disconnected
+[00:38:32] [Server thread/INFO]: cazap4tas left the game
+[00:42:13] [Server thread/INFO]: RyU lost connection: Disconnected
+[00:42:13] [Server thread/INFO]: RyU left the game
+[00:44:09] [Server thread/INFO]: RyU[/181.55.112.198:50377] logged in with entity id 133381 at (213.7650995286608, 56.0625, 122.26903359426059)
+[00:44:09] [Server thread/INFO]: RyU joined the game
+[00:46:14] [Server thread/INFO]: Stopping server
+[00:46:14] [Server thread/INFO]: Saving players
+[00:46:14] [Server Shutdown Thread/INFO]: Stopping server
+[00:46:14] [Server Shutdown Thread/INFO]: Saving players
+[00:46:15] [Server thread/INFO]: RyU lost connection: Internal Exception: java.lang.StackOverflowError
+[00:46:15] [Server thread/INFO]: RyU left the game
+[00:46:15] [Server Shutdown Thread/WARN]: handleDisconnection() called twice
+[00:46:15] [Server Shutdown Thread/INFO]: Saving worlds
+[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/overworld
+[00:46:15] [Server thread/INFO]: Saving worlds
+[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/overworld
+[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
+[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_end
+[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
+[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_end
