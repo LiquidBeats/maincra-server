@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2018-02-16 22:43:22 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2018-02-16 00:23:00 -0500"
@@ -40,6 +46,12 @@
       "has_rail": "2018-02-16 00:23:00 -0500"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2018-02-16 22:43:22 -0500"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
@@ -56,6 +68,12 @@
   "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
       "has_minecart": "2018-02-16 00:22:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2018-02-16 22:43:22 -0500"
     },
     "done": true
   },
@@ -79,7 +97,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "taiga": "2018-02-16 00:22:19 -0500"
+      "forest": "2018-02-16 22:42:27 -0500",
+      "taiga": "2018-02-16 00:22:19 -0500",
+      "taiga_hills": "2018-02-16 22:38:19 -0500"
     },
     "done": false
   },
