@@ -1,0 +1,36 @@
+[19:03:39] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[19:03:39] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
+[19:03:39] [Server thread/INFO]: Loading properties
+[19:03:39] [Server thread/INFO]: Default game type: SURVIVAL
+[19:03:39] [Server thread/INFO]: Generating keypair
+[19:03:40] [Server thread/INFO]: Starting Minecraft server on 192.168.1.3:25565
+[19:03:40] [Server thread/INFO]: Using default channel type
+[19:03:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:03:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:03:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:03:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:03:40] [Server thread/INFO]: Preparing level "new remastered world"
+[19:03:41] [Server thread/INFO]: Loaded 488 advancements
+[19:03:41] [Server thread/INFO]: Preparing start region for level 0
+[19:03:41] [Server thread/INFO]: Done (0.836s)! For help, type "help" or "?"
+[19:03:41] [Server thread/INFO]: Stopping server
+[19:03:41] [Server thread/INFO]: Saving players
+[19:03:41] [Server thread/INFO]: Saving worlds
+[19:03:41] [Server thread/INFO]: Saving chunks for level 'new remastered world'/overworld
+[19:03:41] [Server Shutdown Thread/INFO]: Stopping server
+[19:03:41] [Server Shutdown Thread/INFO]: Saving players
+[19:03:41] [Server Shutdown Thread/INFO]: Saving worlds
+[19:03:41] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/overworld
