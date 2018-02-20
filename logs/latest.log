@@ -1,52 +1,84 @@
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:24] [Server thread/WARN]: Boat moved wrongly!
-[00:00:27] [Server thread/WARN]: Boat moved wrongly!
-[00:00:27] [Server thread/WARN]: Boat moved wrongly!
-[00:00:27] [Server thread/WARN]: Boat moved wrongly!
-[00:00:27] [Server thread/WARN]: Boat moved wrongly!
-[00:00:28] [Server thread/WARN]: Boat moved wrongly!
-[00:00:28] [Server thread/WARN]: Boat moved wrongly!
-[00:00:28] [Server thread/WARN]: Boat moved wrongly!
-[00:00:28] [Server thread/WARN]: Boat moved wrongly!
-[00:00:48] [Server thread/WARN]: Boat moved wrongly!
-[00:00:48] [Server thread/WARN]: Boat moved wrongly!
-[00:00:48] [Server thread/WARN]: Boat moved wrongly!
-[00:00:51] [Server thread/WARN]: cazap4tas moved wrongly!
-[00:04:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4189ms behind, skipping 83 tick(s)
-[00:05:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2326ms behind, skipping 46 tick(s)
-[00:29:45] [Server thread/INFO]: RyU[/181.55.112.198:50257] logged in with entity id 112078 at (164.33428588853582, 63.41999998688698, 150.50001380516755)
-[00:29:45] [Server thread/INFO]: RyU joined the game
-[00:30:05] [Server thread/INFO]: cazap4tas has made the advancement [Best Friends Forever]
-[00:31:50] [Server thread/INFO]: <cazap4tas> tp ryu
-[00:36:20] [Server thread/INFO]: kakamaru has made the advancement [Best Friends Forever]
-[00:37:56] [Server thread/INFO]: kakamaru lost connection: Disconnected
-[00:37:56] [Server thread/INFO]: kakamaru left the game
-[00:38:32] [Server thread/INFO]: cazap4tas lost connection: Disconnected
-[00:38:32] [Server thread/INFO]: cazap4tas left the game
-[00:42:13] [Server thread/INFO]: RyU lost connection: Disconnected
-[00:42:13] [Server thread/INFO]: RyU left the game
-[00:44:09] [Server thread/INFO]: RyU[/181.55.112.198:50377] logged in with entity id 133381 at (213.7650995286608, 56.0625, 122.26903359426059)
-[00:44:09] [Server thread/INFO]: RyU joined the game
-[00:46:14] [Server thread/INFO]: Stopping server
-[00:46:14] [Server thread/INFO]: Saving players
-[00:46:14] [Server Shutdown Thread/INFO]: Stopping server
-[00:46:14] [Server Shutdown Thread/INFO]: Saving players
-[00:46:15] [Server thread/INFO]: RyU lost connection: Internal Exception: java.lang.StackOverflowError
-[00:46:15] [Server thread/INFO]: RyU left the game
-[00:46:15] [Server Shutdown Thread/WARN]: handleDisconnection() called twice
-[00:46:15] [Server Shutdown Thread/INFO]: Saving worlds
-[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/overworld
-[00:46:15] [Server thread/INFO]: Saving worlds
-[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/overworld
-[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
-[00:46:15] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_end
-[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
-[00:46:15] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_end
+[22:04:06] [Server thread/INFO]: Loading properties
+[22:04:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
+[22:04:06] [Server thread/INFO]: Default game type: SURVIVAL
+[22:04:06] [Server thread/INFO]: Generating keypair
+[22:04:07] [Server thread/INFO]: Starting Minecraft server on 192.168.1.3:25565
+[22:04:07] [Server thread/INFO]: Using default channel type
+[22:04:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:04:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:04:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:04:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:04:07] [Server thread/INFO]: Preparing level "new remastered world"
+[22:04:08] [Server thread/INFO]: Loaded 488 advancements
+[22:04:08] [Server thread/INFO]: Preparing start region for level 0
+[22:04:10] [Server thread/INFO]: Preparing spawn area: 0%
+[22:04:11] [Server thread/INFO]: Preparing spawn area: 16%
+[22:04:12] [Server thread/INFO]: Preparing spawn area: 36%
+[22:04:13] [Server thread/INFO]: Preparing spawn area: 61%
+[22:04:14] [Server thread/INFO]: Done (6.345s)! For help, type "help" or "?"
+[22:06:05] [Server thread/INFO]: SexySoyPapi09[/192.168.1.3:54156] logged in with entity id 312 at (21.597879892157053, 107.98087831666562, 179.31294787710922)
+[22:06:05] [Server thread/INFO]: SexySoyPapi09 joined the game
+[22:06:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4489ms behind, skipping 89 tick(s)
+[22:06:30] [Server thread/INFO]: SexySoyPapi09 lost connection: Disconnected
+[22:06:30] [Server thread/INFO]: SexySoyPapi09 left the game
+[22:06:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10940ms behind, skipping 218 tick(s)
+[22:06:34] [Server thread/INFO]: SexySoyPapi09[/192.168.1.3:54162] logged in with entity id 590 at (21.597879892157053, 107.98087831666562, 179.31294787710922)
+[22:06:34] [Server thread/INFO]: SexySoyPapi09 joined the game
+[22:06:42] [Server thread/WARN]: SexySoyPapi09 moved too quickly! -7.736428428505105,-6.261515844652251,-2.770285327449301
+[22:06:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5870ms behind, skipping 117 tick(s)
+[22:07:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2080ms behind, skipping 41 tick(s)
+[22:11:50] [Server thread/INFO]: kakamaru[/181.234.89.202:61917] logged in with entity id 3075 at (-13.467257458667174, 79.28348764162322, 185.6571686546129)
+[22:11:50] [Server thread/INFO]: kakamaru joined the game
+[22:11:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3230ms behind, skipping 64 tick(s)
+[22:12:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2375ms behind, skipping 47 tick(s)
+[22:20:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2221ms behind, skipping 44 tick(s)
+[22:23:18] [Server thread/WARN]: SexySoyPapi09 moved too quickly! -10.171272928819825,0.0,-1.445938160709602
+[22:44:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2851ms behind, skipping 57 tick(s)
+[22:52:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3331ms behind, skipping 66 tick(s)
+[22:54:58] [Server thread/WARN]: SexySoyPapi09 moved too quickly! 0.6311190250828318,-10.326140489548937,1.61838083845592
+[22:56:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2601ms behind, skipping 52 tick(s)
+[22:57:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 19592ms behind, skipping 391 tick(s)
+[22:59:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2299ms behind, skipping 45 tick(s)
+[23:00:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 22387ms behind, skipping 447 tick(s)
+[23:00:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5012ms behind, skipping 100 tick(s)
+[23:00:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 25019ms behind, skipping 500 tick(s)
+[23:01:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4490ms behind, skipping 89 tick(s)
+[23:01:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 27218ms behind, skipping 544 tick(s)
+[23:01:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5791ms behind, skipping 115 tick(s)
+[23:02:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 32507ms behind, skipping 650 tick(s)
+[23:02:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6000ms behind, skipping 120 tick(s)
+[23:04:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 59106ms behind, skipping 1182 tick(s)
+[23:04:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5736ms behind, skipping 114 tick(s)
+[23:05:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 45067ms behind, skipping 901 tick(s)
+[23:05:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5836ms behind, skipping 116 tick(s)
+[23:06:10] [Server thread/WARN]: SexySoyPapi09 moved too quickly! -67.45198433750903,12.203491124379,123.2811549830936
+[23:06:30] [Server thread/INFO]: kakamaru lost connection: Disconnected
+[23:06:30] [Server thread/INFO]: kakamaru left the game
+[23:06:32] [Server thread/INFO]: SexySoyPapi09 lost connection: Disconnected
+[23:06:32] [Server thread/INFO]: SexySoyPapi09 left the game
+[23:06:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20559ms behind, skipping 411 tick(s)
+[23:06:43] [Server thread/INFO]: Stopping server
+[23:06:43] [Server thread/INFO]: Saving players
+[23:06:43] [Server thread/INFO]: Saving worlds
+[23:06:43] [Server thread/INFO]: Saving chunks for level 'new remastered world'/overworld
+[23:06:43] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
+[23:06:43] [Server thread/INFO]: Saving chunks for level 'new remastered world'/the_end
+[23:06:43] [Server Shutdown Thread/INFO]: Stopping server
+[23:06:43] [Server Shutdown Thread/INFO]: Saving players
+[23:06:43] [Server Shutdown Thread/INFO]: Saving worlds
+[23:06:43] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/overworld
+[23:06:43] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_nether
+[23:06:43] [Server Shutdown Thread/INFO]: Saving chunks for level 'new remastered world'/the_end
